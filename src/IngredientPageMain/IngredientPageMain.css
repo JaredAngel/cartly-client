@@ -1,0 +1,11 @@
+.IngredientPageMain {
+  margin: 10px;
+}
+
+.IngredientPageMain__content {
+  background-color: #474B4F;
+  padding: 10px;
+  font-weight: 600;
+  color: beige;
+  max-width: 600px
+}

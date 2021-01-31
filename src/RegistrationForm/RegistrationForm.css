@@ -1,0 +1,25 @@
+.RegistrationForm button {
+  border-radius: 25px;
+}
+
+section.Form {
+  background-color:#222629;
+  color: white;
+  padding: 25px;
+  border-radius: 100px 10px;
+  margin: 10px 50px;
+  text-align: center;
+}
+
+section.Form h2 {
+  background-color: #61892F;
+  color: white;
+  border-radius: 50px 25px;
+  padding: 10px;
+}
+
+section.Form button {
+  font-size: 150%;
+  background-color:#61892F;
+  border-radius: 15px;
+}

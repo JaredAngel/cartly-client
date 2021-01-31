@@ -1,0 +1,22 @@
+.IngredientListMain__button-container {
+  max-width: 380px;
+  margin: 10px 10px 10px 10px;
+}
+
+.IngredientListMain__add-ingredient-button {
+  margin: 10px auto 5px 5px;
+  background-color: #61892F;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.IngredientListMain__add-ingredient-button:hover {
+  background-color: #29862e;
+  color: white;
+}
+
+.IngredientListMain ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+}

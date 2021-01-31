@@ -1,0 +1,54 @@
+.Recipe-form {
+  background-color:#222629;
+  color: #61892F;
+  font-weight: 600;
+  padding: 16px;
+  max-width: 332px;
+}
+
+.Recipe-form label {
+  display: block;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.Recipe-form input,
+.Recipe-form textarea,
+.Recipe-form select {
+  font-size: 14px;
+  padding: 8px;
+  width: 300px;
+  background-color: #8aa865;
+}
+
+.Recipe-form ::placeholder {
+  color: #474B4F;
+}
+
+.Recipe-form select {
+  height: 33px;
+}
+
+.Recipe-form > .field {
+  margin-bottom: 16px;
+}
+.Recipe-form > .buttons {
+  margin-top: 26px;
+}
+
+.Recipe-form button {
+  background-color: #61892F;
+  border-radius: 4px;
+  border: 0;
+  color: black;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+.Recipe-form button[type="submit"]:hover {
+  background-color: #29862e;
+  color: white;
+}

@@ -1,0 +1,94 @@
+.Ingredient {
+  background-color: #222629;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100px;
+  margin-bottom: 8px;
+  max-width: 600px;
+  padding: 8px;
+  position: relative;
+}
+
+.Ingredient__title {
+  font-size: 20px;
+  margin: 0;
+  max-width: 80%;
+  min-height: 20px;
+}
+
+.Ingredient__title a {
+  color: #61892F;
+  display: block;
+  text-decoration: none;
+}
+
+.Ingredient__title a:hover {
+  color: lightgreen;
+}
+
+.Ingredient__body {
+  background-color: #222629;
+  padding: 8px;
+}
+
+.Ingredient__details {
+  background-color: #474B4F;
+  color: #61892F;
+  font-weight: 600;
+  text-indent: 5%;
+}
+
+.Ingredient__actions button {
+  background-color: #61892F;
+  border: 1;
+  color: black;
+  font-size: 14px;
+  height: 30px;
+  width: 70px;
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.Ingredient__share {
+  margin-top: 5px;
+}
+
+.Ingredient__share:hover {
+  background-color: goldenrod;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Ingredient__delete {
+  margin-top: 0px;
+}
+
+.Ingredient__delete:hover {
+  background-color: rgb(192, 46, 46);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.group-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.item-triple {
+  flex: 3;
+}

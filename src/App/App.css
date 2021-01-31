@@ -1,0 +1,41 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-areas: "sidebar header" "sidebar main";
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 120px 1fr;
+  min-height: auto;
+}
+
+.App__nav {
+  background-color: gray;
+  color: black;
+  grid-area: sidebar;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.App__header {
+  background-color:#222629;
+  color: black;
+  grid-area: header;
+  /* Remove to play with Icon */
+  padding-left: 16px;
+  padding-top: 32px;
+}
+
+/* TO color the hyper links within App */
+.App__header a {
+  color: #61892F;
+  text-decoration: unset;
+}
+
+.App__main {
+  grid-area: main;
+  overflow: auto;
+}
+
+.App__nav {
+  background-color: #222629;
+
+}
