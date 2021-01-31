@@ -8,7 +8,7 @@
 }
 
 .IngredientPageNav a {
-  color:#61892F;
+  color:beige;
 }
 
 .IngredientPageNav__list {
@@ -34,7 +34,7 @@
 
 .IngredientPageNav__ingredient-link.active {
   background-color: #61892F;
-  color: #222629;
+  color: beige;
 }
 
 .IngredientPageNav__back-button {

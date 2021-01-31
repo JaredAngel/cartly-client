@@ -161,12 +161,14 @@ class App extends React.Component {
         <nav className='App__nav'>
           {this.renderNavRoutes()}
         </nav>
-        <header className='App__header'>
-          <h1>
+        <header className='App__header group-row'>
+          <h1 className='item'>
             <Link to='/'>Cartly</Link>
             {' '}
-            <Link to='/' onClick={this.logout}>logout</Link>
           </h1>
+          <h4>
+          <Link to='/' onClick={this.logout}>logout</Link>
+          </h4>
         </header>
         <main className='App__main'>
           {this.renderMainRoutes()}

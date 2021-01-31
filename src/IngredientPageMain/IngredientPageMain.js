@@ -43,7 +43,7 @@ class IngredientPageMain extends React.Component {
         />
         <div className='IngredientPageMain__content'>
           {ingredient.content.split(/\n \r|\n/).map((para, i) =>
-            <p key={i}>{para}</p>
+            <p key={i}>Notes/Quantity: {para}</p>
           )}
         </div>
       </section>

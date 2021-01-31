@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LandingPage from './LandingPage';
+import RegistrationForm from './RegistrationForm';
 
-it('renders LandingPage component', () => {
+it('renders RegistrationForm component', () => {
   const div = document.createElement('div');
   ReactDOM.render(
-    <LandingPage />, div
+    <RegistrationForm />, div
   );
   ReactDOM.unmountComponentAtNode(div);
 });

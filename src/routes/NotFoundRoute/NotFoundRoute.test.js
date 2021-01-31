@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LandingPage from './LandingPage';
+import NotFoundRoute from './NotFoundRoute';
 
-it('renders LandingPage component', () => {
+it('renders NotFoundRoute component', () => {
   const div = document.createElement('div');
   ReactDOM.render(
-    <LandingPage />, div
+    <NotFoundRoute />, div
   );
   ReactDOM.unmountComponentAtNode(div);
 });

@@ -1,3 +1,9 @@
 .LoginForm button {
   border-radius: 25px;
+  margin-top: 10px;
+}
+
+.LoginForm button:hover {
+  background-color: #29862e;
+  color: white;
 }

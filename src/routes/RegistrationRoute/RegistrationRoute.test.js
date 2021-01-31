@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import LandingPage from './LandingPage';
+import RegistrationRoute from './RegistrationRoute';
 
-it('renders LandingPage component', () => {
+it('renders RegistrationRoute component', () => {
   const div = document.createElement('div');
   ReactDOM.render(
-    <LandingPage />, div
+    <RegistrationRoute />, div
   );
   ReactDOM.unmountComponentAtNode(div);
 });

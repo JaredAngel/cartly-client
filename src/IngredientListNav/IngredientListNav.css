@@ -8,7 +8,7 @@
 }
 
 .IngredientListNav a {
-  color:#61892F;
+  color:beige;
 }
 
 .IngredientListNav__list {
@@ -34,7 +34,7 @@
 
 .IngredientListNav__recipe-link.active {
   background-color: #61892F;
-  color: #222629;
+  color: beige;
 }
 
 .IngredientListNav__button-wrapper {

@@ -1,6 +1,6 @@
 .Recipe-form {
   background-color:#222629;
-  color: #61892F;
+  color: beige;
   font-weight: 600;
   padding: 16px;
   max-width: 332px;
@@ -18,7 +18,7 @@
   font-size: 14px;
   padding: 8px;
   width: 300px;
-  background-color: #8aa865;
+  background-color: beige;
 }
 
 .Recipe-form ::placeholder {

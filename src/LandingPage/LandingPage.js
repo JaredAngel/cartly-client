@@ -36,7 +36,6 @@ export default class LandingPage extends Component{
   }
 
   handleLogin = () => {
-    console.log(this.state.showLogin)
     this.setState({
       showLogin: true,
       showApp: false,
@@ -50,7 +49,8 @@ export default class LandingPage extends Component{
       <>
         {this.state.showLanding && 
           <div className='LandingPage'>
-            <h2>Welcome to Cartly!</h2>
+            <h1>Welcome to Cartly!</h1>
+            <h3>About Us</h3>
             <p>
               Cartly allows you to log your favorite recipes in your own private journal. Making it easier to keep a list of all required ingredients handy for grocery shopping!
               <br />

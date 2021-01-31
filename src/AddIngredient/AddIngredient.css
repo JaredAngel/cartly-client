@@ -1,11 +1,10 @@
 .AddIngredient {
   padding: 10px;
-  /* background-color: #474B4F; */
 }
 
 .AddIngredient > h2 {
   background-color: #222629;
   max-width: 365px;
-  color: #61892F;
+  color: beige;
   text-align: center;
 }

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import AuthApiService from '../services/auth-api-service';
 import UserContext from '../contexts/UserContext';
-import './LoginForm.css'
+import './LoginForm.css';
 import TokenService from '../services/token-service';
 
 class LoginForm extends Component {
@@ -28,18 +28,7 @@ class LoginForm extends Component {
       .then(res => {
         username.value = ''
         password.value = ''
-        //this.context.processLogin(res.authToken)
         TokenService.saveAuthToken(res.authToken)
-        // const jwtPayload = TokenService.parseAuthToken()
-        // this.setUser({
-        //   id: jwtPayload.user_id,
-        //   firstname: jwtPayload.firstname,
-        //   lastname: jwtPayload.lastname,
-        //   username: jwtPayload.sub,
-        // })
-        console.log('test here blah')
-        //this.props.handleLogin();
-        // this.props.onLoginSuccess();
       }).then(() =>{
           this.props.showApp()
         

@@ -26,8 +26,8 @@
 
 /* TO color the hyper links within App */
 .App__header a {
-  color: #61892F;
-  text-decoration: unset;
+  color: beige;
+  text-decoration: underline;
 }
 
 .App__main {
@@ -37,5 +37,18 @@
 
 .App__nav {
   background-color: #222629;
+}
 
+.group-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.group-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
 }

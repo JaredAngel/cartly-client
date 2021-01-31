@@ -1,5 +1,5 @@
 {
-  "name": "a_la_cart-client",
+  "name": "cartly-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

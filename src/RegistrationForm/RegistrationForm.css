@@ -1,10 +1,16 @@
 .RegistrationForm button {
   border-radius: 25px;
+  margin-top: 10px;
+}
+
+.Registration_Form button:hover {
+  background-color: #29862e;
+  color: white;
 }
 
 section.Form {
   background-color:#222629;
-  color: white;
+  color: beige;
   padding: 25px;
   border-radius: 100px 10px;
   margin: 10px 50px;
@@ -13,7 +19,7 @@ section.Form {
 
 section.Form h2 {
   background-color: #61892F;
-  color: white;
+  color: beige;
   border-radius: 50px 25px;
   padding: 10px;
 }
@@ -22,4 +28,6 @@ section.Form button {
   font-size: 150%;
   background-color:#61892F;
   border-radius: 15px;
+  color: beige;
 }
+
