@@ -1,3 +1,70 @@
+# Cartly - Client
+
+## Built By
+Jared Angel Escobedo
+
+## Links
+Live site: https://cart-client.vercel.app  
+Server: https://cartly-001.herokuapp.com   
+Client Repo: https://github.com/JaredAngel/cartly-client  
+Server Repo: https://github.com/JaredAngel/cartly-server
+
+### Summary
+Cartly allows you to log your favorite recipes in your own private journal. 
+Making it easier to keep a list of all required ingredients handy for grocery shopping!
+
+## Screenshots
+
+![Alt landingPage](./src/images/landingPage.jpg)
+![Alt main](./src/images/main.jpg)
+![Alt ingredient](./src/images/addIngredient.jpg)
+
+### User Stories
+Role: New User
+Task: Signup for new account
+Importance: High
+
+Role: Returning User
+Task: Login to my account
+Importance: High
+
+Role: New User
+Task: Log new entries to account
+Importance: Medium
+
+Role: Returning User
+Task: View entries on account
+Importance: Medium
+
+Role: Administrator
+Task: View all user accounts
+Importance: High
+
+Role: Administrator
+Task: View usage reports
+Importance: Low
+
+........
+
+### Component Tree
+- **Index.js**
+  - **LandingPage** (stateful)
+    - **RegistrationRoute**
+      - **RegistrationForm** (stateful)
+    - **LoginRoute**
+      - **LoginForm** (stateful)
+  - **App.js** (stateful)
+    - **IngredientListMain**
+    - **IngredientPageMain**
+    - **AddRecipe**
+      - **RecipeForm** (stateful)
+    - **AddIngredient**
+      - **RecipeForm** (stateful)
+    - **IngredientPageNav**
+    - **IngredientListNav**
+  
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -36,33 +103,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
