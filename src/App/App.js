@@ -166,9 +166,9 @@ class App extends React.Component {
             <Link to='/'>Cartly</Link>
             {' '}
           </h1>
-          <h4>
-          <Link to='/' onClick={this.logout}>logout</Link>
-          </h4>
+          {/* <div> */}
+          <Link to='/' onClick={this.logout} className='logout-link'>logout</Link>
+          {/* </div>  */}
         </header>
         <main className='App__main'>
           {this.renderMainRoutes()}

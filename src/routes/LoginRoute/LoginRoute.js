@@ -18,10 +18,17 @@ class LoginRoute extends Component {
   render() {
     return (
       <section className='Form'>
-        <h2>Login</h2>
+        <h1>Login</h1>
+        <div className='demo-account'>
+          <p>Demo Account:</p>
+          <p>Username | BobbyJoe</p>
+          <p>Password | My123!@#</p>
+        </div>
         <LoginForm
           onLoginSuccess={this.handleLoginSuccess}
           showApp={() => this.props.showApp()}
+          viewLanding={this.props.viewLanding}
+          viewRegister={this.props.handleRegister}
         />
       </section>
     );

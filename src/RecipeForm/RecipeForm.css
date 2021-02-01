@@ -52,3 +52,11 @@
   background-color: #29862e;
   color: white;
 }
+
+@media all and (max-width: 500px) {
+  .Recipe-form input,
+.Recipe-form textarea,
+.Recipe-form select {
+  width: 80%;
+}
+}

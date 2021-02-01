@@ -8,6 +8,7 @@ body {
   background-image: url("./images/cartly_bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
   /* background-position: 50% -100%; */
   
 }

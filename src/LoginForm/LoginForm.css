@@ -7,3 +7,12 @@
   background-color: #29862e;
   color: white;
 }
+
+div.demo-account p {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+
+div.demo-account p:last-child {
+  margin-bottom: 20px;
+}

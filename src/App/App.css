@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
   grid-template-areas: "sidebar header" "sidebar main";
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 2fr 5fr;
   grid-template-rows: 120px 1fr;
   min-height: auto;
 }
@@ -15,6 +15,8 @@
   overflow: auto;
 }
 
+
+
 .App__header {
   background-color:#222629;
   color: black;
@@ -26,8 +28,13 @@
 
 /* TO color the hyper links within App */
 .App__header a {
+  margin-top: 20px;
   color: beige;
   text-decoration: underline;
+}
+
+.App__header > div {
+  align-items: center;
 }
 
 .App__main {
@@ -51,4 +58,14 @@
 
 .item {
   flex: 1;
+}
+
+.logout-link {
+  margin-right: 10px;
+}
+
+@media all and (max-width: 500px) {
+  .App__nav li a{
+    font-size: 16px;
+  }
 }

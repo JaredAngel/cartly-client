@@ -13,6 +13,15 @@ export default class LandingPage extends Component{
     showRegister: false
   }
 
+  viewLanding = () => {
+    this.setState({
+      showLanding: true,
+      showApp : false,
+      showLogin: false,
+      showRegister: false
+    })
+  }
+
   beginCarting = () => {
     this.setState({
       showApp: true,  
@@ -50,12 +59,15 @@ export default class LandingPage extends Component{
         {this.state.showLanding && 
           <div className='LandingPage'>
             <h1>Welcome to Cartly!</h1>
-            <h3>About Us</h3>
+            <h2>About Us</h2>
             <p>
               Cartly allows you to log your favorite recipes in your own private journal. Making it easier to keep a list of all required ingredients handy for grocery shopping!
               <br />
               <br />
               Simply create or log-in to your account and start putting together your next grocery shopping list.
+              <br />
+              <br />
+              Demo Account: BobbyJoe , My123!@#
             </p>
             <button
               className='Begin__Carting' 
@@ -66,8 +78,8 @@ export default class LandingPage extends Component{
           </div>
         }
 
-        {this.state.showRegister && <RegistrationRoute handleLogin={this.handleLogin}/>}
-        {this.state.showLogin && <LoginRoute showApp={this.beginCarting}/>}
+        {this.state.showRegister && <RegistrationRoute viewLanding={this.viewLanding} handleLogin={this.handleLogin}/>}
+        {this.state.showLogin && <LoginRoute viewLanding={this.viewLanding} handleRegister={this.handleRegister} showApp={this.beginCarting}/>}
         {this.state.showApp && <App logout={this.handleRegister}/>}
       </>
     );

@@ -101,11 +101,17 @@ class RegistrationForm extends Component {
           {' '}
         </footer>
       </form>
+      <div>
       <button
         onClick={this.submitLogin}
       >
         Login
       </button>
+      <button type='button' onClick={this.props.viewLanding}>
+          What Is Cartly?
+        </button>
+      </div>
+      
     </div>
     )
   }

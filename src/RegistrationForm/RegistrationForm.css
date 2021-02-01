@@ -2,6 +2,9 @@
   border-radius: 25px;
   margin-top: 10px;
 }
+.RegistrationForm footer {
+  text-align: center;
+}
 
 .Registration_Form button:hover {
   background-color: #29862e;
@@ -17,7 +20,7 @@ section.Form {
   text-align: center;
 }
 
-section.Form h2 {
+section.Form h1 {
   background-color: #61892F;
   color: beige;
   border-radius: 50px 25px;
@@ -30,4 +33,3 @@ section.Form button {
   border-radius: 15px;
   color: beige;
 }
-

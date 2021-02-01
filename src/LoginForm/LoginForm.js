@@ -78,6 +78,12 @@ class LoginForm extends Component {
         <button type='submit'>
           Login
         </button>
+        <button type='button' onClick={this.props.viewRegister}>
+          Register
+        </button>
+        <button type='button' onClick={this.props.viewLanding}>
+          What Is Cartly?
+        </button>
       </form>
     )
   }

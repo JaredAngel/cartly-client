@@ -16,10 +16,11 @@ class RegistrationRoute extends Component {
   render() {
     return (
       <section className='Form'>
-        <h2>Sign up</h2>
+        <h1>Sign up</h1>
         <RegistrationForm
           onRegistrationSuccess={this.handleRegistrationSuccess}
           handleLogin={this.props.handleLogin}
+          viewLanding={this.props.viewLanding}
         />
       </section>
     );
