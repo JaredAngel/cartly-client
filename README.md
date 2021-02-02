@@ -63,7 +63,16 @@ Importance: Low
     - **IngredientPageNav**
     - **IngredientListNav**
   
-
+## Technologies
+- Front End
+  * HTML
+  * CSS
+  * JavaScript
+  * React
+- Back End
+  * Node.js
+  * Express
+  * Postgres
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

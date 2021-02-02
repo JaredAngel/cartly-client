@@ -13,6 +13,12 @@ export default class LandingPage extends Component{
     showRegister: false
   }
 
+  componentDidMount() {
+    if(TokenService.hasAuthToken()) {
+      this.beginCarting();
+    }
+  }
+
   viewLanding = () => {
     this.setState({
       showLanding: true,

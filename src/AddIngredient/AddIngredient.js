@@ -21,6 +21,8 @@ class AddIngredient extends React.Component {
       label: e.target['ingredient-label'].value,
       recipe_id: e.target['ingredient-recipe-id'].value,
     };
+    console.log(newIngredient.label);
+    console.log(newIngredient.recipe_id);
     fetch(`${config.API_ENDPOINT}/ingredients`, {
       method: 'POST',
       headers: {
@@ -82,7 +84,7 @@ class AddIngredient extends React.Component {
               Label
             </label>
             <select id='ingredient-label-input' name='ingredient-label' required>
-              <option key={null}>Select One</option>
+              <option key={null} value=''>Select One</option>
               <option value='Spices'>Spices</option>
               <option value='Meat/Fish'>Meat/Fish</option>
               <option value='Produce'>Produce</option>
@@ -95,7 +97,7 @@ class AddIngredient extends React.Component {
               Recipe
             </label>
             <select id='ingredient-recipe-select' name='ingredient-recipe-id' required>
-              <option key={null}>...</option>
+              <option key={null} value=''>...</option>
               {recipes.map(recipe =>
                 <option key={recipe.id} value={recipe.id}>
                   {recipe.title}
